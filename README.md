@@ -2,6 +2,8 @@
 
 
 Execution:
+
+
 terraform apply -lock=false   -var="resource_group_name=TedsAKS_group"   -var="vm_name=TedsVM-8"   -var="falcon_client_id= <ADD FALCON CLIENT ID>"   -var="falcon_client_secret=<ADD FALCON CLIENT SECRET>"
  
  
