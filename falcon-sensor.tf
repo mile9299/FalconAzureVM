@@ -5,6 +5,12 @@ provider "azurerm" {
   tenant_id       = "<ADD AZURE TENANT ID>"
   client_id       = "<ADD AZURE APPLICATION ID>"
   client_secret   = "<ADD AZURE API SECRET"
+# IAC Scanning Example
+  resource "aws_instance" "example" {
+  password = "MyP@ssw0rd123!"
+  username = "admin"
+}
+
 }
 
 # Variables
